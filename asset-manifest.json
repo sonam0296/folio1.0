@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/folio1.0/static/css/main.f77af4c3.css",
+    "main.js": "/folio1.0/static/js/main.616fb2f3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/folio1.0/static/js/787.1ed0c42c.chunk.js",
+    "static/media/helvetica-neu.ttf": "/folio1.0/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/folio1.0/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logosonam.png": "/folio1.0/static/media/logosonam.19e9b51f35879d28a95c.png",
+    "static/media/logo-s.png": "/folio1.0/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/folio1.0/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/folio1.0/index.html",
+    "main.f77af4c3.css.map": "/folio1.0/static/css/main.f77af4c3.css.map",
+    "main.616fb2f3.js.map": "/folio1.0/static/js/main.616fb2f3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/folio1.0/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f77af4c3.css",
+    "static/js/main.616fb2f3.js"
+  ]
+}
