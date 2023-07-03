@@ -5,7 +5,10 @@ import { faAws, faCss3, faDocker, faGit, faHtml5, faJs, faNodeJs, faPython, faRe
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Skill = () => {
-  const [skills, setSkills] = useState([faHtml5, faCss3, faJs, faReact, faNodeJs, faGit, faDocker, faPython, faAws]);
+  const [skills, setSkills] = useState([
+    {name: faHtml5, color: '#F06529'}, 
+    {name: faCss3, color: '#28A4D9'}, {name: faJs,color: '#EFD81D'}, {name: faReact, color: '#5ED4F4'}, {name: faNodeJs, color: '#3c873a'}, 
+    {name: faGit, color: '#EC4D28'}, {name: faDocker, color: '#0db7ed'}, {name: faPython, color: '#FFEBCD'}, {name: faAws, color: '#FF9900'}]);
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
@@ -61,7 +64,7 @@ const Skill = () => {
         <div className="circle">
           {skills.map((skill, index) => (
             <div className={`skill skill-${index}`} key={index}>
-              <FontAwesomeIcon icon={skill} color='#ffd700' size='2xl'/>
+              <FontAwesomeIcon icon={skill.name} color={skill.color} size='2xl'/>
             </div>
           ))}
         </div>
