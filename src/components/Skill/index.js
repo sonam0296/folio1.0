@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './index.scss'; // Import the CSS file for styling
 import AnimatedLetters from '../AnimatedLetters';
+import { faAws, faCss3, faDocker, faGit, faHtml5, faJs, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Skill = () => {
-  const [skills, setSkills] = useState(['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'GIT', 'JSON', 'Python', 'AWS']);
+  const [skills, setSkills] = useState([faHtml5, faCss3, faJs, faReact, faNodeJs, faGit, faDocker, faPython, faAws]);
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
@@ -59,7 +61,7 @@ const Skill = () => {
         <div className="circle">
           {skills.map((skill, index) => (
             <div className={`skill skill-${index}`} key={index}>
-              {skill}
+              <FontAwesomeIcon icon={skill} color='#ffd700' size='2xl'/>
             </div>
           ))}
         </div>
