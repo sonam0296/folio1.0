@@ -1,0 +1,190 @@
+.tech-tag {
+  color: #ffd700;
+}
+
+.animated-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  top: 20%;
+  left: 30%;
+}
+
+.circle {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  // border-radius: 50%;
+  // border: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(0deg);
+}
+
+.skill {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0;
+  animation: fadeInOut 10s infinite linear;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.skill-0 {
+  top: 0;
+  left: 20%;
+  transform-origin: 50% 50%;
+  transform: rotate(0deg) translateY(-125px) rotate(0deg);
+  color: #ffd700;
+
+  &:hover {
+    transform: scale(1.2);
+     animation-name: bounce;
+    animation-timing-function: ease
+  }
+}
+
+.skill-1 {
+  top: 0;
+  right: 50%;
+  transform-origin: 50% 50%;
+  transform: rotate(40deg) translateY(-125px) rotate(-40deg);
+  color: #ffd700;
+
+  &:hover {
+    transform: scale(1.2);
+     animation-name: bounce;
+    animation-timing-function: ease
+  }
+}
+
+.skill-2 {
+  top: 0;
+  right: 50%;
+  transform-origin: 50% 50%;
+  transform: rotate(80deg) translateY(-125px) rotate(-80deg);
+  color: #ffd700;
+
+  &:hover {
+    transform: scale(1.2);
+     animation-name: bounce;
+    animation-timing-function: ease
+  }
+}
+
+.skill-3 {
+  top: 0;
+  right: 50%;
+  transform-origin: 50% 50%;
+  transform: rotate(120deg) translateY(-125px) rotate(-120deg);
+  color: #ffd700;
+
+  &:hover {
+    transform: scale(1.2);
+     animation-name: bounce;
+    animation-timing-function: ease
+  }
+}
+
+.skill-4 {
+  top: 0;
+  right: 50%;
+  transform-origin: 50% 50%;
+  transform: rotate(160deg) translateY(-125px) rotate(-160deg);
+  color: #ffd700;
+
+  &:hover {
+    transform: scale(1.2);
+     animation-name: bounce;
+    animation-timing-function: ease
+  }
+}
+
+.skill-5 {
+  top: 0;
+  right: 50%;
+  transform-origin: 50% 50%;
+  transform: rotate(200deg) translateY(-125px) rotate(-200deg);
+  color: #ffd700;
+
+  &:hover {
+    transform: scale(1.2);
+     animation-name: bounce;
+    animation-timing-function: ease
+  }
+}
+
+.skill-6 {
+  top: 0;
+  right: 50%;
+  transform-origin: 50% 50%;
+  transform: rotate(240deg) translateY(-125px) rotate(-240deg);
+  color: #ffd700;
+
+  &:hover {
+    transform: scale(1.2);
+     animation-name: bounce;
+    animation-timing-function: ease
+  }
+}
+
+.skill-7 {
+  top: 0;
+  right: 50%;
+  transform-origin: 50% 50%;
+  transform: rotate(280deg) translateY(-125px) rotate(-280deg);
+  color: #ffd700;
+
+  &:hover {
+    transform: scale(1.2);
+     animation-name: bounce;
+    animation-timing-function: ease
+  }
+}
+
+.skill-8 {
+  top: 0;
+  right: 50%;
+  transform-origin: 50% 50%;
+  transform: rotate(320deg) translateY(-125px) rotate(-320deg);
+  color: #ffd700;
+
+  &:hover {
+    transform: scale(1.2);
+     animation-name: bounce;
+    animation-timing-function: ease
+  }
+}
+
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}

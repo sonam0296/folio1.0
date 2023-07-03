@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Barbour ABI | Construction Project Leads & Market Intelligence",
+        "description": "Barbour ABI is a leading construction intelligence platform, providing the highest quality construction market leads and intelligence for more than 80 years.",
+        "technologies": ["Reactjs", "Python", "PostgresSQL", "Git", "AWS", "Docker"]
+    },
+    {
+        "name": "Pixalive | Our Nation; Our Social Network",
+        "description": "It is a social media networking platform for the users to explore new connections, experience wide range of contents, communicate, discuss and more based on their interest in the network with privacy.",
+        "technologies": ["Reactjs", "Node.js", "Git", "AWS"]
+    },
+    {
+        "name": "Safewell- Protecting You At Work",
+        "description": "A PPE Brand by Acme Safety Wears Ltd.",
+        "technologies": ["Angular10", "Cake PHP", "Git", "AWS"]
+    },
+    {
+        "name": "Personal Portfolio",
+        "description": "To show my skills and knowledge.",
+        "technologies": ["React.js", "Git"]
+    }
+]
