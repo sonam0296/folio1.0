@@ -5,7 +5,7 @@ import Logo from '../../assets/images/logo-s.png'
 import LogoSub from '../../assets/images/logosonam.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faEye, faFile, faGears, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faMedium, faSkype } from '@fortawesome/free-brands-svg-icons'
 
 const SideBar = () => {
     return (
@@ -45,6 +45,11 @@ const SideBar = () => {
                 <li>
                     <a target='_blank' href='https://github.com/sonam0296'>
                         <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
+                    </a>
+                </li>
+                <li>
+                    <a target='_blank' href='https://medium.com/@sonam43jha'>
+                        <FontAwesomeIcon icon={faMedium} color='#4d4d4e' />
                     </a>
                 </li>
                 <li>
